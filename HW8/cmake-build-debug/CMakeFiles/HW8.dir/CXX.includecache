@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/caden/compsci/data_structures/HW8/BTree.h
+vector
+-
+iomanip
+-
+
+/home/caden/compsci/data_structures/HW8/bst_calc.cpp
+iostream
+-
+iomanip
+-
+BTree.h
+/home/caden/compsci/data_structures/HW8/BTree.h
+vector
+-
+

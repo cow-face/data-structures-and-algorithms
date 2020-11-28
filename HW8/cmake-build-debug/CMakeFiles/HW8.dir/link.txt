@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HW8.dir/BTree.cpp.o CMakeFiles/HW8.dir/bst_calc.cpp.o  -o HW8 
