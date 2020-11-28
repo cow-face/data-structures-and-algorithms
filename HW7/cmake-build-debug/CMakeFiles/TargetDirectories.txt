@@ -1,0 +1,3 @@
+/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/Homework_4.dir

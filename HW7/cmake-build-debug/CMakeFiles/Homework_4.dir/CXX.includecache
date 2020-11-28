@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cowface/CLionProjects/Homework-4/hw4.h
+recursive.h
+/Users/cowface/CLionProjects/Homework-4/recursive.h
+
+/Users/cowface/CLionProjects/Homework-4/hw7.cpp
+iostream
+-
+sstream
+-
+hw4.h
+/Users/cowface/CLionProjects/Homework-4/hw4.h
+recursive.h
+/Users/cowface/CLionProjects/Homework-4/recursive.h
+hw7.h
+/Users/cowface/CLionProjects/Homework-4/hw7.h
+
+/Users/cowface/CLionProjects/Homework-4/hw7.h
+hw4.h
+/Users/cowface/CLionProjects/Homework-4/hw4.h
+recursive.h
+/Users/cowface/CLionProjects/Homework-4/recursive.h
+
+/Users/cowface/CLionProjects/Homework-4/main.cpp
+iostream
+-
+recursive.h
+/Users/cowface/CLionProjects/Homework-4/recursive.h
+hw4.h
+/Users/cowface/CLionProjects/Homework-4/hw4.h
+hw7.h
+/Users/cowface/CLionProjects/Homework-4/hw7.h
+
+/Users/cowface/CLionProjects/Homework-4/recursive.h
+
