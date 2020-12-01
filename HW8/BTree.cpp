@@ -7,11 +7,14 @@
 
 using std::cout;
 
+const int INT_MAX = 2147483647;
+const int INT_MIN = -2147483647;
+
 BTree::BTree() {
   root = nullptr;
 }
 
-BTree::BTree(vector<int> arr) {
+BTree::BTree(const vector<int>& arr) {
   int size = arr.size();
   root = ConstructorHelper(arr, root, 0, size);
 }
@@ -50,7 +53,7 @@ void BTree::DisplayHelper(BTree::Node *temp_root) {
 }
 
 bool BTree::IsBST() {
-  return IsBSTHelper(root, INT32_MIN, INT32_MAX);
+  return IsBSTHelper(root, INT_MIN, INT_MAX);
 }
 
 bool BTree::IsBSTHelper(BTree::Node *temp_root, int min, int max) {
@@ -66,8 +69,27 @@ bool BTree::IsBSTHelper(BTree::Node *temp_root, int min, int max) {
   && IsBSTHelper(temp_root->right, temp_root->data+1, max);
 }
 
+int BTree::MinHelper(Node* temp_root) {
+  if (temp_root == nullptr) {
+    return INT_MAX;
+  }
+  int left_min = MinHelper(temp_root->left);
+  int right_min = MinHelper(temp_root->right);
+  int min = temp_root->data;
+  if (right_min < min) {
+    min = right_min;
+  }
+  if (left_min < min) {
+    min = left_min;
+  }
+  return min;
+}
 
 int BTree::Min() {
+  return MinHelper(root);
+}
+
+/*int BTree::Min() {
   if (IsBST()) {
     Node *temp_node = root;
     while (temp_node->left != nullptr) {
@@ -76,9 +98,9 @@ int BTree::Min() {
     return temp_node->data;
   }
   else return 0;
-}
+}*/
 
-int BTree::Max() {
+/*int BTree::Max() {
   if (IsBST()) {
     Node *temp_node = root;
     while (temp_node->right != nullptr) {
@@ -87,6 +109,26 @@ int BTree::Max() {
     return temp_node->data;
   }
   else return 0;
+}*/
+
+int BTree::MaxHelper(Node* temp_root) {
+  if (temp_root == nullptr) {
+    return INT_MIN;
+  }
+  int left_max = MaxHelper(temp_root->left);
+  int right_max = MaxHelper(temp_root->right);
+  int max = temp_root->data;
+  if (right_max > max) {
+    max = right_max;
+  }
+  if (left_max > max) {
+    max = left_max;
+  }
+  return max;
+}
+
+int BTree::Max() {
+  return MaxHelper(root);
 }
 
 float BTree::AvgHelper(Node* temp_root) {
@@ -101,5 +143,6 @@ float BTree::AvgHelper(Node* temp_root) {
 float BTree::Avg() {
   return AvgHelper(root)/counter;
 }
+
 
 

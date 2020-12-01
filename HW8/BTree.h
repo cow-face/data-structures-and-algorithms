@@ -13,7 +13,7 @@ using std::vector;
 class BTree {
 public:
   BTree();
-  BTree(vector<int>);
+  BTree(const vector<int>&);
   void Display();
   bool IsBST();
   int Min();
@@ -34,6 +34,14 @@ private:
   void DisplayHelper(Node*);
   bool IsBSTHelper(Node*, int, int);
   float AvgHelper(Node *temp_root);
+
+  int MinHelper(Node *temp_root, int min);
+
+  int MinHelper(Node *temp_root);
+
+  int MaxHelper(Node *temp_root);
+
+  int DepthFinder(int n);
 };
 
 

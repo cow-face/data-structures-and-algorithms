@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/caden/compsci/data_structures/HW8/BTree.cpp
+BTree.h
+/home/caden/compsci/data_structures/HW8/BTree.h
+iostream
+-
+
 /home/caden/compsci/data_structures/HW8/BTree.h
 vector
 -
