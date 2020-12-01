@@ -19,6 +19,7 @@ public:
   int Min();
   int Max();
   float Avg();
+  int DepthFinder(int n);
 
 private:
   struct Node {
@@ -41,7 +42,7 @@ private:
 
   int MaxHelper(Node *temp_root);
 
-  int DepthFinder(int n);
+  int DepthHelper(int n, vector<int> path, int depth, Node *temp_root);
 };
 
 

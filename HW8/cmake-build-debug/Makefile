@@ -170,32 +170,32 @@ BTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/BTree.cpp.s
 .PHONY : BTree.cpp.s
 
-bst_calc.o: bst_calc.cpp.o
+bst_bacon.o: bst_bacon.cpp.o
 
-.PHONY : bst_calc.o
+.PHONY : bst_bacon.o
 
 # target to build an object file
-bst_calc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_calc.cpp.o
-.PHONY : bst_calc.cpp.o
+bst_bacon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_bacon.cpp.o
+.PHONY : bst_bacon.cpp.o
 
-bst_calc.i: bst_calc.cpp.i
+bst_bacon.i: bst_bacon.cpp.i
 
-.PHONY : bst_calc.i
+.PHONY : bst_bacon.i
 
 # target to preprocess a source file
-bst_calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_calc.cpp.i
-.PHONY : bst_calc.cpp.i
+bst_bacon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_bacon.cpp.i
+.PHONY : bst_bacon.cpp.i
 
-bst_calc.s: bst_calc.cpp.s
+bst_bacon.s: bst_bacon.cpp.s
 
-.PHONY : bst_calc.s
+.PHONY : bst_bacon.s
 
 # target to generate assembly for a file
-bst_calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_calc.cpp.s
-.PHONY : bst_calc.cpp.s
+bst_bacon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW8.dir/build.make CMakeFiles/HW8.dir/bst_bacon.cpp.s
+.PHONY : bst_bacon.cpp.s
 
 # Help Target
 help:
@@ -209,9 +209,9 @@ help:
 	@echo "... BTree.o"
 	@echo "... BTree.i"
 	@echo "... BTree.s"
-	@echo "... bst_calc.o"
-	@echo "... bst_calc.i"
-	@echo "... bst_calc.s"
+	@echo "... bst_bacon.o"
+	@echo "... bst_bacon.i"
+	@echo "... bst_bacon.s"
 .PHONY : help
 
 

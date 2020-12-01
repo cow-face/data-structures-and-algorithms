@@ -88,7 +88,7 @@
 		<Unit filename="/home/caden/compsci/data_structures/HW8/BTree.h">
 			<Option target="HW8"/>
 		</Unit>
-		<Unit filename="/home/caden/compsci/data_structures/HW8/bst_calc.cpp">
+		<Unit filename="/home/caden/compsci/data_structures/HW8/bst_bacon.cpp">
 			<Option target="HW8"/>
 		</Unit>
 		<Unit filename="/home/caden/compsci/data_structures/HW8/CMakeLists.txt">

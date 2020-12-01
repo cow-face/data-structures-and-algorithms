@@ -90,29 +90,29 @@ CMakeFiles/HW8.dir/BTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW8.dir/BTree.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caden/compsci/data_structures/HW8/BTree.cpp -o CMakeFiles/HW8.dir/BTree.cpp.s
 
-CMakeFiles/HW8.dir/bst_calc.cpp.o: CMakeFiles/HW8.dir/flags.make
-CMakeFiles/HW8.dir/bst_calc.cpp.o: ../bst_calc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caden/compsci/data_structures/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW8.dir/bst_calc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW8.dir/bst_calc.cpp.o -c /home/caden/compsci/data_structures/HW8/bst_calc.cpp
+CMakeFiles/HW8.dir/bst_bacon.cpp.o: CMakeFiles/HW8.dir/flags.make
+CMakeFiles/HW8.dir/bst_bacon.cpp.o: ../bst_bacon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caden/compsci/data_structures/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW8.dir/bst_bacon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW8.dir/bst_bacon.cpp.o -c /home/caden/compsci/data_structures/HW8/bst_bacon.cpp
 
-CMakeFiles/HW8.dir/bst_calc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW8.dir/bst_calc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caden/compsci/data_structures/HW8/bst_calc.cpp > CMakeFiles/HW8.dir/bst_calc.cpp.i
+CMakeFiles/HW8.dir/bst_bacon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW8.dir/bst_bacon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caden/compsci/data_structures/HW8/bst_bacon.cpp > CMakeFiles/HW8.dir/bst_bacon.cpp.i
 
-CMakeFiles/HW8.dir/bst_calc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW8.dir/bst_calc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caden/compsci/data_structures/HW8/bst_calc.cpp -o CMakeFiles/HW8.dir/bst_calc.cpp.s
+CMakeFiles/HW8.dir/bst_bacon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW8.dir/bst_bacon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caden/compsci/data_structures/HW8/bst_bacon.cpp -o CMakeFiles/HW8.dir/bst_bacon.cpp.s
 
 # Object files for target HW8
 HW8_OBJECTS = \
 "CMakeFiles/HW8.dir/BTree.cpp.o" \
-"CMakeFiles/HW8.dir/bst_calc.cpp.o"
+"CMakeFiles/HW8.dir/bst_bacon.cpp.o"
 
 # External object files for target HW8
 HW8_EXTERNAL_OBJECTS =
 
 HW8: CMakeFiles/HW8.dir/BTree.cpp.o
-HW8: CMakeFiles/HW8.dir/bst_calc.cpp.o
+HW8: CMakeFiles/HW8.dir/bst_bacon.cpp.o
 HW8: CMakeFiles/HW8.dir/build.make
 HW8: CMakeFiles/HW8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caden/compsci/data_structures/HW8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HW8"

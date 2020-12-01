@@ -4,6 +4,6 @@
 CMakeFiles/HW8.dir/BTree.cpp.o: ../BTree.cpp
 CMakeFiles/HW8.dir/BTree.cpp.o: ../BTree.h
 
-CMakeFiles/HW8.dir/bst_calc.cpp.o: ../BTree.h
-CMakeFiles/HW8.dir/bst_calc.cpp.o: ../bst_calc.cpp
+CMakeFiles/HW8.dir/bst_bacon.cpp.o: ../BTree.h
+CMakeFiles/HW8.dir/bst_bacon.cpp.o: ../bst_bacon.cpp
 

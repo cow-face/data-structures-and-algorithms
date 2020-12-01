@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HW8.dir/BTree.cpp.o"
-  "CMakeFiles/HW8.dir/bst_calc.cpp.o"
+  "CMakeFiles/HW8.dir/bst_bacon.cpp.o"
   "HW8"
   "HW8.pdb"
 )

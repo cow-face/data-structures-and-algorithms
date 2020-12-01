@@ -6,6 +6,7 @@
 #include<iostream>
 
 using std::cout;
+using std::endl;
 
 const int INT_MAX = 2147483647;
 const int INT_MIN = -2147483647;
@@ -144,5 +145,26 @@ float BTree::Avg() {
   return AvgHelper(root)/counter;
 }
 
+int BTree::DepthHelper(int n, vector<int> path, int depth, Node* temp_root) {
+  if (temp_root == nullptr) {
+    return 0;
+  }
+  if (temp_root->data == n) {
+    cout << "depth = " << depth << endl;
+    cout << "path = ";
+    for (int i = 0; i < depth; i++) {
+      cout << path[i] << " ";
+    }
+    cout << temp_root->data;
+    return depth;
+  }
+  path.push_back(temp_root->data);
+  return DepthHelper(n, path, depth++, temp_root->right) +
+  DepthHelper(n, path, depth++, temp_root->left);
+}
 
+int BTree::DepthFinder(int n) {
+  vector<int> path;
+  return DepthHelper(n, path, 1, root);
+}
 
