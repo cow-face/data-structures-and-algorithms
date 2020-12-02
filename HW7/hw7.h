@@ -9,13 +9,13 @@
 #include "recursive.h"
 #include<unordered_map>
 
-void hash_test1 (list_t);
+void hash_test1 ();
 
 list_t Hash1 (list_t list);
 
 list_t Hash1Helper (list_t list, list_t new_list);
 
-void hash_test2 (list_t list);
+void hash_test2 ();
 
 list_t odd_fn (list_t list, list_t new_list, int product_of_odd);
 
@@ -43,7 +43,7 @@ static int SumWOPrimesHelper(list_t list, list_t old_list, int result);
 
 int collisions_cnt(list_t list, std::unordered_map<int, int> map, int collisions);
 
-void Collisions(list_t old_hashed_list, list_t new_hashed_list, std::string test_name);
+void Collisions(list_t old_hashed_list, list_t new_hashed_list, const std::string& test_name);
 
 
 

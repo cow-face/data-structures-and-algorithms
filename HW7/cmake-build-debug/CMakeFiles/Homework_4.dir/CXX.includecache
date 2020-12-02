@@ -10,6 +10,20 @@
 recursive.h
 /home/caden/compsci/data_structures/HW7/recursive.h
 
+/home/caden/compsci/data_structures/HW7/hw7.cpp
+iostream
+-
+sstream
+-
+unordered_map
+-
+hw4.h
+/home/caden/compsci/data_structures/HW7/hw4.h
+recursive.h
+/home/caden/compsci/data_structures/HW7/recursive.h
+hw7.h
+/home/caden/compsci/data_structures/HW7/hw7.h
+
 /home/caden/compsci/data_structures/HW7/hw7.h
 hw4.h
 /home/caden/compsci/data_structures/HW7/hw4.h

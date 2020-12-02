@@ -93,10 +93,7 @@ int main() {
   old_hash_test2 = list_make(58, old_hash_test);
   old_hash_test2 = list_make(16, old_hash_test);
 
-  string input_list;
-  getline(cin, input_list);
-  new_list = ReadListFromInput(input_list);
 
-  hash_test1(new_list);
+  hash_test2();
 
 }
