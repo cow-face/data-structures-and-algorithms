@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/caden/compsci/data_structures/HW8/BTree.h
-vector
--
-iomanip
--
-
-/home/caden/compsci/data_structures/HW8/bst_bacon.cpp
-iostream
--
-iomanip
--
+/home/caden/compsci/data_structures/HW8/BTree.cpp
 BTree.h
 /home/caden/compsci/data_structures/HW8/BTree.h
+iostream
+-
+
+/home/caden/compsci/data_structures/HW8/BTree.h
 vector
+-
+iomanip
 -
 
