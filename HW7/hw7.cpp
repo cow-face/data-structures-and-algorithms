@@ -40,6 +40,7 @@ void hash_test1 () {
   std::cout << std::endl;
   std::cout << "final_diff_output: ";
   list_print(Difference(hashed_list, old_hash_test));
+  std::cout << std::endl;
   Collisions(old_hash_test, hashed_list, "hash_test1");
 }
 
@@ -103,6 +104,7 @@ void hash_test2 () {
   std::cout << std::endl;
   std::cout << "final_diff_output: ";
   list_print(Difference(hashed_list, old_hash_test));
+  std::cout << std::endl;
   Collisions(old_hash_test, hashed_list, "hash_test2");
 }
 
