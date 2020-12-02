@@ -8,102 +8,104 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug"/>
+				<Option working_dir="/home/caden/compsci/data_structures/HW7/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug"/>
+				<Option working_dir="/home/caden/compsci/data_structures/HW7/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug"/>
+				<Option working_dir="/home/caden/compsci/data_structures/HW7/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Homework_4">
-				<Option output="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Homework_4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug"/>
+				<Option output="/home/caden/compsci/data_structures/HW7/cmake-build-debug/Homework_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caden/compsci/data_structures/HW7/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/cowface/CLionProjects/Homework-4/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/home/caden/compsci/data_structures/HW7/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Homework_4/fast">
-				<Option output="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Homework_4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/cowface/CLionProjects/Homework-4/cmake-build-debug"/>
+				<Option output="/home/caden/compsci/data_structures/HW7/cmake-build-debug/Homework_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caden/compsci/data_structures/HW7/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/cowface/CLionProjects/Homework-4/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/home/caden/compsci/data_structures/HW7/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/caden/compsci/data_structures/HW7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/hw4.cpp">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/hw4.cpp">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/hw4.h">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/hw4.h">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/hw7.cpp">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/hw7.cpp">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/hw7.h">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/hw7.h">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/main.cpp">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/main.cpp">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/recursive.cpp">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/recursive.cpp">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/recursive.h">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/recursive.h">
 			<Option target="Homework_4"/>
 		</Unit>
-		<Unit filename="/Users/cowface/CLionProjects/Homework-4/CMakeLists.txt">
+		<Unit filename="/home/caden/compsci/data_structures/HW7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

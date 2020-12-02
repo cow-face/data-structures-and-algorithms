@@ -84,10 +84,19 @@ int main() {
   old_hash_test = list_make(23, old_hash_test);
   old_hash_test = list_make(22, old_hash_test);
   old_hash_test = list_make(22, old_hash_test);
-  for (int i = 7-1; i>=1; i--) {
-      new_list = list_make(i, new_list);
-  }
+
+  list_t old_hash_test2 = list_make();
+  old_hash_test2 = list_make(62, old_hash_test);
+  old_hash_test2 = list_make(20, old_hash_test);
+  old_hash_test2 = list_make(56, old_hash_test);
+  old_hash_test2 = list_make(18, old_hash_test);
+  old_hash_test2 = list_make(58, old_hash_test);
+  old_hash_test2 = list_make(16, old_hash_test);
+
+  string input_list;
+  getline(cin, input_list);
+  new_list = ReadListFromInput(input_list);
+
   hash_test1(new_list);
-  list_print(Hash2(new_list));
 
 }

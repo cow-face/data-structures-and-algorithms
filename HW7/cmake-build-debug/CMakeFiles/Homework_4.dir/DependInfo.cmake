@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/cowface/CLionProjects/Homework-4/hw4.cpp" "/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/Homework_4.dir/hw4.cpp.o"
-  "/Users/cowface/CLionProjects/Homework-4/hw7.cpp" "/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/Homework_4.dir/hw7.cpp.o"
-  "/Users/cowface/CLionProjects/Homework-4/main.cpp" "/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/Homework_4.dir/main.cpp.o"
-  "/Users/cowface/CLionProjects/Homework-4/recursive.cpp" "/Users/cowface/CLionProjects/Homework-4/cmake-build-debug/CMakeFiles/Homework_4.dir/recursive.cpp.o"
+  "/home/caden/compsci/data_structures/HW7/hw4.cpp" "/home/caden/compsci/data_structures/HW7/cmake-build-debug/CMakeFiles/Homework_4.dir/hw4.cpp.o"
+  "/home/caden/compsci/data_structures/HW7/hw7.cpp" "/home/caden/compsci/data_structures/HW7/cmake-build-debug/CMakeFiles/Homework_4.dir/hw7.cpp.o"
+  "/home/caden/compsci/data_structures/HW7/main.cpp" "/home/caden/compsci/data_structures/HW7/cmake-build-debug/CMakeFiles/Homework_4.dir/main.cpp.o"
+  "/home/caden/compsci/data_structures/HW7/recursive.cpp" "/home/caden/compsci/data_structures/HW7/cmake-build-debug/CMakeFiles/Homework_4.dir/recursive.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

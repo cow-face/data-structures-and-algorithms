@@ -6,37 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/cowface/CLionProjects/Homework-4/hw4.h
+/home/caden/compsci/data_structures/HW7/hw4.h
 recursive.h
-/Users/cowface/CLionProjects/Homework-4/recursive.h
+/home/caden/compsci/data_structures/HW7/recursive.h
 
-/Users/cowface/CLionProjects/Homework-4/hw7.cpp
-iostream
--
-sstream
--
+/home/caden/compsci/data_structures/HW7/hw7.h
 hw4.h
-/Users/cowface/CLionProjects/Homework-4/hw4.h
+/home/caden/compsci/data_structures/HW7/hw4.h
 recursive.h
-/Users/cowface/CLionProjects/Homework-4/recursive.h
-hw7.h
-/Users/cowface/CLionProjects/Homework-4/hw7.h
+/home/caden/compsci/data_structures/HW7/recursive.h
+unordered_map
+-
 
-/Users/cowface/CLionProjects/Homework-4/hw7.h
-hw4.h
-/Users/cowface/CLionProjects/Homework-4/hw4.h
-recursive.h
-/Users/cowface/CLionProjects/Homework-4/recursive.h
-
-/Users/cowface/CLionProjects/Homework-4/main.cpp
+/home/caden/compsci/data_structures/HW7/main.cpp
 iostream
 -
 recursive.h
-/Users/cowface/CLionProjects/Homework-4/recursive.h
+/home/caden/compsci/data_structures/HW7/recursive.h
 hw4.h
-/Users/cowface/CLionProjects/Homework-4/hw4.h
+/home/caden/compsci/data_structures/HW7/hw4.h
 hw7.h
-/Users/cowface/CLionProjects/Homework-4/hw7.h
+/home/caden/compsci/data_structures/HW7/hw7.h
 
-/Users/cowface/CLionProjects/Homework-4/recursive.h
+/home/caden/compsci/data_structures/HW7/recursive.h
 
